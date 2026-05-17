@@ -1,0 +1,99 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Public\Documents\Altium\VISB1\PCB1.PcbDoc
+Date     : 06/10/2021
+Time     : 17:54:56
+
+Processing Rule : Clearance Constraint (Gap=4mil) (All),(All)
+   Violation between Clearance Constraint: (Collision < 4mil) Between Arc (150mil,335mil) on L1 And Pad FD2-0(150mil,335mil) on L1 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Arc (155mil,3605mil) on L1 And Pad FD1-0(155mil,3605mil) on L1 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Arc (3790mil,355mil) on L1 And Pad FD3-0(3790mil,355mil) on L1 
+   Violation between Clearance Constraint: (Collision < 5mil) Between Pad U7-21(682.52mil,2220mil) on L1 And Via (660mil,2175mil) from L1 to L4 
+   Violation between Clearance Constraint: (Collision < 5mil) Between Pad U7-21(682.52mil,2220mil) on L1 And Via (660mil,2220mil) from L1 to L4 
+   Violation between Clearance Constraint: (Collision < 5mil) Between Pad U7-21(682.52mil,2220mil) on L1 And Via (660mil,2260mil) from L1 to L4 
+   Violation between Clearance Constraint: (Collision < 5mil) Between Pad U7-21(682.52mil,2220mil) on L1 And Via (705mil,2175mil) from L1 to L4 
+   Violation between Clearance Constraint: (Collision < 5mil) Between Pad U7-21(682.52mil,2220mil) on L1 And Via (705mil,2220mil) from L1 to L4 
+   Violation between Clearance Constraint: (Collision < 5mil) Between Pad U7-21(682.52mil,2220mil) on L1 And Via (705mil,2260mil) from L1 to L4 
+Rule Violations :9
+
+Processing Rule : Clearance Constraint (Gap=50mil) (OnLayer('Keep-Out Layer')),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Short-Circuit Constraint: Between Pad U7-21(682.52mil,2220mil) on L1 And Via (660mil,2175mil) from L1 to L4 Location : [X = 660mil][Y = 2175mil]
+   Violation between Short-Circuit Constraint: Between Pad U7-21(682.52mil,2220mil) on L1 And Via (660mil,2220mil) from L1 to L4 Location : [X = 660mil][Y = 2220mil]
+   Violation between Short-Circuit Constraint: Between Pad U7-21(682.52mil,2220mil) on L1 And Via (660mil,2260mil) from L1 to L4 Location : [X = 660mil][Y = 2260mil]
+   Violation between Short-Circuit Constraint: Between Pad U7-21(682.52mil,2220mil) on L1 And Via (705mil,2175mil) from L1 to L4 Location : [X = 705mil][Y = 2175mil]
+   Violation between Short-Circuit Constraint: Between Pad U7-21(682.52mil,2220mil) on L1 And Via (705mil,2220mil) from L1 to L4 Location : [X = 705mil][Y = 2220mil]
+   Violation between Short-Circuit Constraint: Between Pad U7-21(682.52mil,2220mil) on L1 And Via (705mil,2260mil) from L1 to L4 Location : [X = 705mil][Y = 2260mil]
+Rule Violations :6
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=4mil) (Max=71497.938mil) (Preferred=4mil) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=12mil) (Preferred=11.55mil) (InNetClass('Nodes'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=50,00ohms) (Max=50,00ohms) (Preferred=50,00ohms) (InNetClass('Relays_I/O'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (InPadClass('PowerPads'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=11.811mil) (Conductor Width=4mil) (Air Gap=4mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=3mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=7.874mil) (Max=248.031mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=9.842mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=4mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (-113.662mil,1320mil)(-113.662mil,2520mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (-113.662mil,1320mil)(358.779mil,1320mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (-113.662mil,2520mil)(358.779mil,2520mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (-150.078mil,1122.795mil)(181.811mil,1122.795mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (-150.078mil,648.779mil)(-150.078mil,1122.795mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (-150.078mil,648.779mil)(181.811mil,648.779mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (3541.26mil,1708.976mil)(4013.701mil,1708.976mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (3541.26mil,527.874mil)(4013.701mil,527.874mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (3550mil,1979.724mil)(4022.441mil,1979.724mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (3550mil,3554.528mil)(4022.441mil,3554.528mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (4013.701mil,527.874mil)(4013.701mil,1708.976mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (4022.441mil,1979.724mil)(4022.441mil,3554.528mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (445.797mil,3.937mil)(445.797mil,561.3mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (445.797mil,3.937mil)(781.231mil,3.937mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (781.231mil,3.937mil)(781.231mil,561.3mil) on Top Overlay 
+Rule Violations :15
+
+Processing Rule : Matched Lengths(Tolerance=100mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=71497.938mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 30
+Waived Violations : 0
+Time Elapsed        : 00:00:03
